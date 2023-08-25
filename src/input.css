@@ -38,3 +38,6 @@
 .shownav {
     left: 0 !important;
 }
+.overflow_hidden{
+    overflow: hidden !important;
+}

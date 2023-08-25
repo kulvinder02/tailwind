@@ -16,7 +16,7 @@
   crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   </head>
-  <body>
+  <body class="lg:overflow-scroll">
     <!-- nav bar -->
     <section> 
     <nav class="h-24 bg-slate-800 flex text-center ">
@@ -555,6 +555,7 @@
     <script>
       function opennav(){
           document.getElementById("smal_nav").classList.toggle("left-0")
+          document.body.classList.toggle("overflow-hidden")
       }
       </script>
     <script>
